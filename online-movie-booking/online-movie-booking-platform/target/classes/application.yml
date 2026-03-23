@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: online-movie-booking-platform
+
+  datasource:
+     url: jdbc:postgresql://localhost:5432/online_movie_booking_db
+     username: postgres
+     password: Aakriti@123
+     driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
